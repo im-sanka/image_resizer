@@ -9,7 +9,7 @@ maxsize = (max_option, max_option)
 
 # Sidebar for uploading individual images and selecting output folder
 st.sidebar.title("Select Images")
-input_images = st.sidebar.file_uploader("Upload individual images", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
+input_images = st.sidebar.file_uploader("Upload individual images", type=["jpg", "jpeg"], accept_multiple_files=True)
 output_folder = st.sidebar.selectbox("Output format:", ["JPEG", "PNG"])
 
 # Process images and display them in a grid
