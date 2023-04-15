@@ -37,3 +37,4 @@ if input_images and output_folder:
                 st.download_button("Download resized images", data=zip_buffer.getvalue(), file_name="resized_images.zip")
         for output_buffer in output_files:
             output_buffer.close()
+
