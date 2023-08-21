@@ -15,4 +15,4 @@ Saving lots of time!
 <br>
 <br>
 ## Wanna try?
-Just clone this and open this in your IDE, type "run streamlit main_app.py" and new window will be opened with the ready to use app!
+Just clone this and open it in your IDE, type "run streamlit main_app.py" and new window will be opened with the ready to use app!
