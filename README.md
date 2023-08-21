@@ -1,8 +1,14 @@
 # image_resizer
-Just for journal club! i made this via chatGPT but with many iterations :D
+Just for journal club! i made this via chatGPT but with many iterations since I wanted to test how good the AI in making with a simple prompting :D
 <br>
 <br>
-It's better to design it first and let the AI build the skeleton.
+IMO, it's better to design it first and let the AI build the skeleton. 
+<br>
+<br>
+Then, start implement your idea with the guidance for AI. You will code faster! 
+<br>
+<br>
+Tips? Don't just copy paste the code. Comprehend what it takes and then implement.
 <br>
 <br>
 Saving lots of time!
