@@ -27,4 +27,4 @@ Follow this steps:
 - Only need two libraries, tkinker and pillow (PIL)
 - So, now we have two options to do image resizing! :)
 
-![]https://github.com/im-sanka/image_resizer/blob/main/Screenshot%202023-08-22%20at%2021.29.19.png
+![](https://github.com/im-sanka/image_resizer/blob/main/Screenshot%202023-08-22%20at%2021.29.19.png)
