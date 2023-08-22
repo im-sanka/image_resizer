@@ -1,5 +1,5 @@
 # image_resizer (updated)
-![]()https://github.com/im-sanka/image_resizer/blob/main/Screenshot%202023-08-22%20at%2021.37.00.png
+![](https://github.com/im-sanka/image_resizer/blob/main/Screenshot%202023-08-22%20at%2021.37.00.png)
 
 Just for journal club! 
 
