@@ -1,4 +1,6 @@
 # image_resizer (updated)
+![]()https://github.com/im-sanka/image_resizer/blob/main/Screenshot%202023-08-22%20at%2021.37.00.png
+
 Just for journal club! 
 
 I made this via chatGPT but with many iterations since I wanted to test how good the AI in making with a simple prompting :D
@@ -10,7 +12,6 @@ Then, start implement your idea with the guidance for AI. You will code faster!
 Tips? Don't just copy paste the code. Comprehend what they are and then start implementing them.
 
 Saving lots of time!
-
 
   
 ## Wanna try?
