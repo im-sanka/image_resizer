@@ -7,7 +7,7 @@ I made this via chatGPT but with many iterations since I wanted to test how good
 
 IMO, it's better to design it first and let the AI build the skeleton. 
 
-Then, start implement your idea with the guidance for AI. You will code faster! 
+Then, start to implement your idea with the guidance from AI. You will code and learn faster! 
 
 Tips? Don't just copy paste the code. Comprehend what they are and then start implementing them.
 
