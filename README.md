@@ -1,18 +1,19 @@
 # image_resizer
-Just for journal club! i made this via chatGPT but with many iterations since I wanted to test how good the AI in making with a simple prompting :D
-<br>
-<br>
+Just for journal club! 
+
+I made this via chatGPT but with many iterations since I wanted to test how good the AI in making with a simple prompting :D
+
 IMO, it's better to design it first and let the AI build the skeleton. 
-<br>
-<br>
+
 Then, start implement your idea with the guidance for AI. You will code faster! 
-<br>
-<br>
-Tips? Don't just copy paste the code. Comprehend what it takes and then implement.
-<br>
-<br>
+
+Tips? Don't just copy paste the code. Comprehend what they are and then start implementing them.
+
 Saving lots of time!
-<br>
-<br>
+
 ## Wanna try?
-Just clone this and open it in your IDE, type "run streamlit main_app.py" and new window will be opened with the ready to use app!
+Follow this steps:
+1. Clone this or copy the code (in main_app.py)
+2. Install the libraries (if you don't have one)
+3. Just run it by typing streamlit run main_app.py
+4. New window will be opened with the ready to use app!
