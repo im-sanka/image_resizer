@@ -4,7 +4,8 @@ import io
 import zipfile
 
 st.title("Image Resizer")
-st.subheader("It's an easy app to resize your image. Just upload and download it! That's it!")
+st.subheader("It's an easy app to resize your image.")
+st.subheader("Just upload and download it! That's it!")
 max_option = st.sidebar.selectbox("How much do you want to resize (in pixel square)?", [128, 256, 512, 1024, 2048])
 maxsize = (max_option, max_option)
 
