@@ -8,11 +8,14 @@ max_option = st.sidebar.selectbox("How much do you want to resize (in pixel squa
 maxsize = (max_option, max_option)
 
 # Sidebar for uploading individual images and selecting output folder
-st.sidebar.title("Select Images")
+st.sidebar.title("Upload & Settings")
 input_images = st.sidebar.file_uploader("Upload individual images", type=["jpg", "jpeg"], accept_multiple_files=True)
 output_folder = st.sidebar.selectbox("Output format:", ["JPEG", "PNG"])
 
 # Process images and display them in a grid
+download_data = None
+download_filename = None
+
 if input_images and output_folder:
     st.header("Processed Images")
     with st.spinner("Processing images..."):
@@ -26,15 +29,20 @@ if input_images and output_folder:
                 output_files.append(output_buffer)
         st.success("Done!")
 
-        # Download button for resized images
+        # Prepare download data
         if len(output_files) == 1:
-            st.download_button("Download resized image", data=output_files[0].getvalue(), file_name="resized_image.{}".format(output_folder.lower()))
+            download_data = output_files[0].getvalue()
+            download_filename = "resized_image.{}".format(output_folder.lower())
         else:
             with io.BytesIO() as zip_buffer:
                 with zipfile.ZipFile(zip_buffer, mode="w") as zip_file:
                     for i, output_buffer in enumerate(output_files):
                         zip_file.writestr("image_{}.{}".format(i, output_folder.lower()), output_buffer.getvalue())
-                st.download_button("Download resized images", data=zip_buffer.getvalue(), file_name="resized_images.zip")
+                download_data = zip_buffer.getvalue()
+                download_filename = "resized_images.zip"
         for output_buffer in output_files:
             output_buffer.close()
 
+# Download button on the sidebar
+if download_data and download_filename:
+    st.sidebar.download_button("Download Resized Images!", data=download_data, file_name=download_filename)
